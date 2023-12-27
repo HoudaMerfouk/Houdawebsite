@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="contact.html">Contact Us</a>
+      <a href="social_cause.html">Social Cause</a>
+      <div class="dropdown">
+        <button class="dropbtn">Gallery &#9662;</button>
+        <div class="nav-content">
+          <a href="photo.html">Multimedia</a>
+          <a href="memes.html">Photography</a>
+          <a href="videos.html">Videos</a>
+          <a href="p5js.html">P5.js</a>
+          <a href="mmp_work.html">Other Work</a>
+        </div>
+      </div>
+      <a href="index.html">Home</a>
+    </nav>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 22</div>
+        <img src="./memes/meme1.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 22</div>
+        <img src="./memes/meme2.jpg" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 22</div>
+        <img src="./memes/meme3.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 22</div>
+        <img src="./memes/meme4.png" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 22</div>
+        <img src="./memes/meme5.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 22</div>
+        <img src="./memes/meme6.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">7 / 22</div>
+        <img src="./memes/meme7.JPG" style="width: 300px; height: 430px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">8 / 22</div>
+        <img src="./memes/meme8.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">9 / 22</div>
+        <img src="./memes/meme9.jpg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">10 / 22</div>
+        <img src="./memes/meme10.jpg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">11 / 22</div>
+        <img src="./memes/meme11.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">12 / 22</div>
+        <img src="./memes/meme12.jpg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">13 / 22</div>
+        <img src="./memes/meme13.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">14 / 22</div>
+        <img src="./memes/meme14.jpg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">15 / 22</div>
+        <img src="./memes/meme15.JPG" style="width: 300px; height: 400px;" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">16 / 22</div>
+        <img src="./memes/meme16.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">17 / 22</div>
+        <img src="./memes/meme17.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">18 / 22</div>
+        <img src="./memes/meme18.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">19 / 22</div>
+        <img src="./memes/meme19.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">20 / 22</div>
+        <img src="./memes/meme20.JPG" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">21 / 22</div>
+        <img src="./memes/meme21.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">22 / 22</div>
+        <img src="./memes/meme22.jpeg" style="width: 300px; height: 400px;" />
+      </div>
+  
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme1.jpeg"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(1)"
+            alt="The Woods"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme2.jpg"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(2)"
+            alt="Cinque Terre"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme3.jpeg"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(3)"
+            alt="Mountains and fjords"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme4.png"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(4)"
+            alt="Northern Lights"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme5.jpeg"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(5)"
+            alt="Nature and sunrise"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo_cursor"
+            src="./memes/meme6.jpeg"
+            style="width: 110px; height: 120px"
+            onclick="currentSlide(6)"
+            alt="Snowy Mountains"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+  </body>
+</html>
