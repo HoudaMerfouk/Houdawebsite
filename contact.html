@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="contact.html">Contact Us</a>
+      <a href="social_cause.html">Social Cause</a>
+      <div class="dropdown">
+        <button class="dropbtn">Gallery &#9662;</button>
+        <div class="nav-content">
+          <a href="photo.html">Multimedia</a>
+          <a href="memes.html">Photography1</a>
+          <a href="videos.html">Videos</a>
+          <a href="p5js.html">P5.js</a>
+          <a href="mmp_work.html">Other Work</a>
+        </div>
+      </div>
+      <a href="index.html">Home</a>
+    </nav>
+
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="10"
+        cols="50"
+        required
+      ></textarea>
+
+      <button type="submit">Contact</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
